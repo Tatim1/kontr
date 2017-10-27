@@ -1,0 +1,51 @@
+
+
+main {
+	width: 400px;
+	height: 400px;
+	background: white;
+   	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+ul {
+	width: 300px;
+	height: 300px;
+	font-size: 0;
+	padding: 0;
+}
+
+li {
+	display: inline-block;
+}
+
+#red {
+	border-radius: 110px 150px 0px 150px; 
+	background: red;
+	width: 50%;
+	height: 50%; 
+	}
+
+#orange {
+	border-radius: 150px 110px 150px 0px; 
+	background: orange;
+	width: 50%;
+	height: 50%; 
+	}
+
+#green {
+	border-radius: 150px 0px 150px 110px; 
+	background: green;
+	width: 50%;
+	height: 50%; 
+	}
+
+#pur {
+	border-radius: 0px 150px 110px 150px; 
+	background: purple;
+	width: 50%;
+	height: 50%; 
+}
